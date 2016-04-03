@@ -1,0 +1,23 @@
+<!doctype HTML>
+  <html>
+    <head>
+      <title>Autod</title>
+      <meta charset="utf-8">
+      <style>
+        p{
+          color: black;
+          border-style: solid;
+          border-width: 5px;
+          border-color: olive;
+          width: 300px;
+          height: 50px;
+          text-align: center;
+        }
+      </style>
+    </head>
+    <body>
+      <p style="background:<?php echo ($autod[$i]['colour']);?>">
+        Parklas on <?php echo ($autod[$i]['mark']);?> mis on toodetud - <?php echo ($autod[$i]['tootmisaasta']);?> ja on
+        "<?php echo ($autod[$i]['varv']);?>"</p>
+    </body>
+</html>
