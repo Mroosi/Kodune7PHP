@@ -1,2 +1,2 @@
 # Kodune7PHP
-PHP kodusedülessanded.
+PHP kodusedülesanded.
